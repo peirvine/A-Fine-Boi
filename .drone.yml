@@ -11,3 +11,8 @@ steps:
   commands:
   - echo $GREETING_EN
   - echo world
+- name: test
+  image: node
+  commands:
+  - npm install
+  - npm test
